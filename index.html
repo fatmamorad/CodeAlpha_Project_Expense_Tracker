@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Tracker</title>
+    <link href="css/css.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <p class="div-tittle">Expense Tracker</p>
+    <div id="expense-entry">
+        <input type="text" class="expense-input-name in"  id="input-1" placeholder="Enter expense name">
+        <input class="expense-input-price in" id="input-2"placeholder="Enter amount">
+        <input type="submit" class="in sub" id="add">
+        <p id="error1">Please enter valid expense name and amount</p>
+    </div>
+    <div class="expense-table">
+        <table class="table" id="myTable">
+            <thead>
+              <th> Name </th>
+              <th> Amount </th>
+            </thead>
+            <tbody id="expenseList">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+
+<script src="js/js.js"> </script>
+</html>

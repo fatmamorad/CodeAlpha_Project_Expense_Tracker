@@ -1,0 +1,63 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+   text-align: center;
+}
+.div-tittle{
+    font-size: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.expense-entry{
+    margin-left: auto;
+    margin-right: auto;
+}
+#input-1,#input-2,.sub
+{
+   display: block;
+    width: 700px;
+    height: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.sub:hover{
+    background-color: darkblue;
+    color: #f2f2f2;
+    border: 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.btn {
+    color: black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+}
+#error1{
+    display: none;
+    color: red;
+}
